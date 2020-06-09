@@ -1,0 +1,116 @@
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  background: hsl(0, 0%, 98%);
+  color: hsl(234, 12%, 34%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin: 60px;
+}
+
+.light {
+  font-weight: 200;
+  margin: 0;
+}
+
+.bold {
+  margin-top: 0;
+}
+
+.description {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 16px;
+  color: hsl(229, 6%, 66%);
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.coll {
+  width: 33.33%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin: 20px;
+  background: white;
+  box-shadow: 0px 0px 20px 10px #e6e6e6;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.supervisor,
+.team-builder,
+.karma,
+.calculator {
+  padding: 30px;
+  min-height: 200px;
+  position: relative;
+}
+
+.supervisor h3,
+.team-builder h3,
+.karma h3,
+.calculator h3 {
+  margin-top: 0;
+}
+
+.supervisor span,
+.team-builder span,
+.karma span,
+.calculator span {
+  font-size: 14px;
+  color: hsl(229, 6%, 66%);
+}
+
+.supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.attribution {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .cards {
+    display: block;
+  }
+
+  .coll {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
